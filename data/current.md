@@ -8,7 +8,8 @@ Test user for Second Brain development.
 No captures yet.
 
 ## Open Loops
-None.
+
+- [ ] Pick up dry cleaning tomorrow
 
 ## This Week
 Testing the new Durable Objects architecture.
