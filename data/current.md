@@ -9,7 +9,7 @@ No captures yet.
 
 ## Open Loops
 
-- [ ] Pick up dry cleaning tomorrow
+- [ ] Test with <special> & "chars" test-1769850762547-n1uwi
 
 ## This Week
 Testing the new Durable Objects architecture.
