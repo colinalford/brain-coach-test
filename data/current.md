@@ -9,7 +9,7 @@ No captures yet.
 
 ## Open Loops
 
-- [ ] Review the Q1 budget spreadsheet tomorrow
+- [ ] Review the homepage mockups
 
 ## This Week
 Testing the new Durable Objects architecture.
