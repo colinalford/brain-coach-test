@@ -9,7 +9,7 @@ No captures yet.
 
 ## Open Loops
 
-- [ ] :tada: Celebrate launch :rocket: test-1769851117052-q981r
+- [ ] Review the Q1 budget spreadsheet tomorrow
 
 ## This Week
 Testing the new Durable Objects architecture.
