@@ -9,7 +9,7 @@ No captures yet.
 
 ## Open Loops
 
-- [ ] Review the homepage mockups
+- [ ] Verify storage test 1769851385056
 
 ## This Week
 Testing the new Durable Objects architecture.
