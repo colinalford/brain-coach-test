@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 8d71f5d4 source_ref: do direction: decompose -->
+<!-- context_pack_version: 3f7faa17 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -49,6 +49,12 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Focus Areas
+- Rebuild test focus
+
+## Commitments
+- [ ] Rebuild test commitment
 
 ## Theme
 Stabilize and protect what matters
@@ -415,10 +421,3 @@ Things the system has learned about the user's world. Updated automatically duri
 
 ## Identity
 <!-- Source: identity/*.md (combined) -->
-# Bio
-
-Personal information and biographical context.
-
-## Basic Info
-- **Name:** Colin Alford (Coco to friends, Colin professionally)
-- **
