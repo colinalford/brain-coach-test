@@ -11,6 +11,7 @@ No captures yet.
 
 - [ ] Verify storage test 1769851385056
 - [ ] Atomic commit test task
+- [ ] Atomic commit test task
 ## This Week
 Testing the new Durable Objects architecture.
 
