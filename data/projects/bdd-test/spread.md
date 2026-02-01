@@ -112,6 +112,20 @@ The testing landscape shows a clear shift toward these modern frameworks, with t
 - https://www.getautonoma.com/blog/test-automation-frameworks-guide
 - https://blog.appsignal.com/2024/05/22/cypress-vs-playwright-for-node-a-head-to-head-comparison.html
 - https://currents.dev/posts/cypress-playwright-for-tech-leaders
+### best practices for testing [test:research_1769984068506] (2026-02-01)
+
+Research synthesis on testing best practices. [test:research_1769984068506]
+
+**Key Findings:**
+- Unit tests catch bugs early
+- Integration tests verify wiring
+
+**Recommendations:**
+- Write tests first
+- Use BDD approach
+
+**Sources:**
+- https://example.com/testing-guide
 ## Log
 
 - 2026-02-01 | Project created
