@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: aab2b5f7 source_ref: do direction: decompose -->
+<!-- context_pack_version: 0d7ab7ed source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -33,7 +33,9 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Complete taxes by April 15
 - [ ] Write performance reviews (due March 1)
 - [ ] Weekly reminder: 1 hour of PCP research calls (time-boxed)
-
+- [ ] Schedule dentist appointment for Saturday
+- [ ] Groceries: eggs, bread, coffee
+- [ ] Debug auth middleware issue in API refactor
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
@@ -253,7 +255,7 @@ Personal information and biographical context.
 
 <!--
 Write your personal mission statement here.
-This is your long-horizon orienting document ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ who you're becoming, what you're aiming at.
+This is your long-horizon orienting document ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ who you're becoming, what you're aiming at.
 Revisit annually or when something fundamental shifts.
 
 Questions to consider:
@@ -264,7 +266,7 @@ Questions to consider:
 
 # Mission Statement
 
-This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂÃÂ¢ÃÂÃÂÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂÃÂ¢ÃÂÃÂÃÂÃÂbeing.
+This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂbeing.
 
 Rather than abstract purpose, this mission is expressed as a **picture of a good daily life**. This is the life I am orienting toward.
 
@@ -276,7 +278,7 @@ Rather than abstract purpose, this mission is expressed as a **picture of a good
 
 I go to bed and wake up around the same time most days. My mornings belong to me before any other obligations.
 
-When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂ¢ÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂ¢ÃÂÃÂÃÂÃÂnot to pressure myself, but to orient.
+When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂnot to pressure myself, but to orient.
 
 I walk my dog, spend some time outside, and move my body through light exercise or stretching. I eat on a consistent schedule that supports my health and energy.
 
@@ -312,7 +314,7 @@ There is room for both rest and engagement.
 
 On weekends, I have hobbies and groups I am meaningfully engaged with. I participate in community in ways that feel safe, chosen, and sustaining.
 
-I also make intentional time to be quietÃÂÃÂ¢ÃÂÃÂÃÂÃÂto rest, to reflect, to rejuvenate. Massage and selfÃÂÃÂ¢ÃÂÃÂÃÂÃÂcare are regular parts of my life, not emergency interventions.
+I also make intentional time to be quietÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂto rest, to reflect, to rejuvenate. Massage and selfÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂcare are regular parts of my life, not emergency interventions.
 
 I maintain a clean, tidy, and beautiful home. My yard and gardens are spaces I enjoy and tend, especially when the weather is kind.
 
@@ -327,7 +329,7 @@ This mission prioritizes:
 * nervous system stability over constant productivity
 * consistency over intensity
 * agency over pressure
-* contribution without selfÃÂÃÂ¢ÃÂÃÂÃÂÃÂerasure
+* contribution without selfÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂerasure
 * a life that can be lived sustainably
 
 A good life, for me, is not defined by constant achievement. It is defined by **days that fe
