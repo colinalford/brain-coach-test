@@ -88,6 +88,20 @@ The testing landscape shows a clear shift toward these modern frameworks, with t
 - https://www.bigbinary.com/blog/why-we-switched-from-cypress-to-playwright
 - https://blog.appsignal.com/2024/05/22/cypress-vs-playwright-for-node-a-head-to-head-comparison.html
 - https://2024.stateofjs.com/en-US/libraries/testing/
+### best practices for testing [test:research_1769982519214] (2026-02-01)
+
+Research synthesis on testing best practices. [test:research_1769982519214]
+
+**Key Findings:**
+- Unit tests catch bugs early
+- Integration tests verify wiring
+
+**Recommendations:**
+- Write tests first
+- Use BDD approach
+
+**Sources:**
+- https://example.com/testing-guide
 ## Log
 
 - 2026-02-01 | Project created
