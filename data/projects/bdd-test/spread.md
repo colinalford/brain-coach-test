@@ -1,7 +1,5 @@
-# bdd-test
-
-Created: 2026-02-01
-Status: active
+# bdd-te
+Active — updated from chat [test:proj_chat_1769981522832]
 
 ## Summary
 
@@ -81,3 +79,4 @@ Research synthesis on testing best practices. [test:research_1769981514856]
 ## Log
 
 - 2026-02-01 | Project created
+- 2026-02-01 21:32 | Update project status [test:proj_chat_1769981522832]
