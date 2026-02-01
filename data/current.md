@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 623ded0d source_ref: do direction: decompose -->
+<!-- context_pack_version: 3290ed38 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -262,7 +262,7 @@ Personal information and biographical context.
 
 <!--
 Write your personal mission statement here.
-This is your long-horizon orienting document ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ who you're becoming, what you're aiming at.
+This is your long-horizon orienting document ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ who you're becoming, what you're aiming at.
 Revisit annually or when something fundamental shifts.
 
 Questions to consider:
@@ -273,7 +273,7 @@ Questions to consider:
 
 # Mission Statement
 
-This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂbeing.
+This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂbeing.
 
 Rather than abstract purpose, this mission is expressed as a **picture of a good daily life**. This is the life I am orienting toward.
 
@@ -285,7 +285,7 @@ Rather than abstract purpose, this mission is expressed as a **picture of a good
 
 I go to bed and wake up around the same time most days. My mornings belong to me before any other obligations.
 
-When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂnot to pressure myself, but to orient.
+When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂnot to pressure myself, but to orient.
 
 I walk my dog, spend some time outside, and move my body through light exercise or stretching. I eat on a consistent schedule that supports my health and energy.
 
@@ -311,14 +311,4 @@ At the end of the workday, I have a closing ritual that marks the transition out
 
 I walk my dog again. I return to my body and my home.
 
-Some evenings are quiet and restorative. Some are spent doing chores or tending to my space. Some include hobbies, events, or time with friends. I choose evenings based on capacity rather than obligation.
-
-There is room for both rest and engagement.
-
----
-
-### Weekends: Belonging, Rest, and Renewal
-
-On weekends, I have hobbies and groups I am meaningfully engaged with. I participate in community in ways that feel safe, chosen, and sustaining.
-
-I also make intentional time to be quietÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂto rest, to reflect, to rejuvenate. Massage and selfÃÂÃÂÃÂ
+Some evenings are quiet and restorative. Some are spent doing chores or tending to my space. Some include hobbi
