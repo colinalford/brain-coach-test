@@ -1,0 +1,8 @@
+# Default platform for act - use node:20 which works well on Apple Silicon
+-P ubuntu-latest=node:20
+
+# Disable Docker socket mounting (not needed for our workflows)
+--container-daemon-socket=-
+
+# Reuse containers for faster subsequent runs
+--reuse

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "channel": {
+    "id": "C0B123ABC",
+    "name": "proj-find-pcp",
+    "is_channel": true,
+    "is_private": false,
+    "created": 1737312000
+  }
+}

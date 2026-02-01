@@ -1,0 +1,30 @@
+name = "second-brain"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Durable Objects configuration
+[durable_objects]
+bindings = [
+  { name = "BRAIN_DO", class_name = "BrainDO" },
+  { name = "PROJECT_DO", class_name = "ProjectDO" },
+  { name = "RITUAL_DO", class_name = "RitualDO" }
+]
+
+# Durable Object migrations
+[[migrations]]
+tag = "v1"
+new_classes = ["BrainDO", "ProjectDO", "RitualDO"]
+
+# Environment variables are set via `wrangler secret put` or Cloudflare dashboard
+# Required secrets:
+# - SLACK_SIGNING_SECRET
+# - SLACK_BOT_TOKEN
+# - GITHUB_TOKEN
+# - GITHUB_REPO
+# - ANTHROPIC_API_KEY
+#
+# Optional channel ID overrides (can also use channel names):
+# - SLACK_INBOX_CHANNEL_ID
+# - SLACK_WEEKLY_CHANNEL_ID
+# - SLACK_MONTHLY_CHANNEL_ID
+# - SLACK_BOT_USER_ID

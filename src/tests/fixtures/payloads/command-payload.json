@@ -1,0 +1,7 @@
+{
+  "command": "/project",
+  "text": "list",
+  "user_id": "U_TEST_USER",
+  "channel_id": "C_TEST_INBOX",
+  "response_url": "https://hooks.slack.com/commands/test/response"
+}

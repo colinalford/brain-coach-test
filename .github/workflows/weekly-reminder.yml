@@ -1,0 +1,71 @@
+name: Weekly Review Reminder
+
+on:
+  schedule:
+    # Sunday 9:00 AM ET (14:00 UTC) — 9am EST / 10am EDT
+    - cron: '0 14 * * 0'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Gather week stats
+        id: stats
+        run: |
+          # Count stream entries from the last 7 days
+          CAPTURE_COUNT=0
+          for i in $(seq 0 6); do
+            DAY=$(date -d "$i days ago" +%Y-%m-%d 2>/dev/null || date -v-${i}d +%Y-%m-%d)
+            if [ -f "data/stream/${DAY}.md" ]; then
+              CAPTURE_COUNT=$((CAPTURE_COUNT + 1))
+            fi
+          done
+
+          # Count active projects
+          PROJECT_COUNT=0
+          if [ -f "data/projects/index.md" ]; then
+            PROJECT_COUNT=$(grep -c "|.*active.*|" data/projects/index.md 2>/dev/null || echo "0")
+          fi
+
+          # Count open loops from current.md
+          LOOP_COUNT=0
+          if [ -f "data/current.md" ]; then
+            LOOP_COUNT=$(sed -n '/^## Open Loops/,/^## /p' data/current.md | grep -c "^- " 2>/dev/null || echo "0")
+          fi
+
+          echo "capture_count=$CAPTURE_COUNT" >> $GITHUB_OUTPUT
+          echo "project_count=$PROJECT_COUNT" >> $GITHUB_OUTPUT
+          echo "loop_count=$LOOP_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Send reminder to Slack
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_WEEKLY_CHANNEL_ID: ${{ secrets.SLACK_WEEKLY_CHANNEL_ID }}
+        run: |
+          CAPTURES="${{ steps.stats.outputs.capture_count }}"
+          PROJECTS="${{ steps.stats.outputs.project_count }}"
+          LOOPS="${{ steps.stats.outputs.loop_count }}"
+
+          MSG=$(cat << 'MSGEOF'
+          *Weekly Review Time*
+
+          Ready to review the week? Type `/ritual weekly` to begin, or just start chatting about what's on your mind.
+
+          *This week:*
+          MSGEOF
+          )
+          MSG="${MSG}
+          - Stream entries: ${CAPTURES}
+          - Active projects: ${PROJECTS}
+          - Open loops: ${LOOPS}
+
+          What got done? What's stuck? What matters next week?"
+
+          curl -s -X POST "https://slack.com/api/chat.postMessage" \
+            -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg channel "$SLACK_WEEKLY_CHANNEL_ID" --arg text "$MSG" '{channel: $channel, text: $text}')"

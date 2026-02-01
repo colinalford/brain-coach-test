@@ -1,0 +1,23 @@
+{
+  "name": "brain-coach",
+  "version": "1.0.0",
+  "description": "Second Brain system with Slack UI, Cloudflare Workers, and GitHub Actions",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --selectProjects unit",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch --selectProjects unit",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --selectProjects unit",
+    "test:system": "node --experimental-vm-modules node_modules/jest/bin/jest.js --selectProjects system --runInBand",
+    "test:e2e": "node --experimental-vm-modules node_modules/jest/bin/jest.js --selectProjects e2e --runInBand",
+    "test:all": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.0",
+    "jest": "^29.7.0",
+    "memfs": "^4.6.0",
+    "nock": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

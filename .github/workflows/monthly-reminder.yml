@@ -1,0 +1,79 @@
+name: Monthly Review Reminder
+
+on:
+  schedule:
+    # Every Sunday 9:00 AM ET (14:00 UTC) — first Sunday check is conditional
+    - cron: '0 14 * * 0'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  check-and-send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if first Sunday
+        id: check
+        run: |
+          DAY_OF_MONTH=$(date +%d)
+          # First Sunday is between 1-7
+          if [ "$DAY_OF_MONTH" -le 7 ]; then
+            echo "is_first_sunday=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_first_sunday=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout repository
+        if: steps.check.outputs.is_first_sunday == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+
+      - name: Gather month stats
+        if: steps.check.outputs.is_first_sunday == 'true' || github.event_name == 'workflow_dispatch'
+        id: stats
+        run: |
+          # Count active projects
+          PROJECT_COUNT=0
+          if [ -f "data/projects/index.md" ]; then
+            PROJECT_COUNT=$(grep -c "|.*active.*|" data/projects/index.md 2>/dev/null || echo "0")
+          fi
+
+          # Count stream files this month
+          MONTH=$(date +%Y-%m)
+          STREAM_COUNT=$(ls data/stream/${MONTH}-*.md 2>/dev/null | wc -l | tr -d ' ')
+
+          # Count open loops
+          LOOP_COUNT=0
+          if [ -f "data/current.md" ]; then
+            LOOP_COUNT=$(sed -n '/^## Open Loops/,/^## /p' data/current.md | grep -c "^- " 2>/dev/null || echo "0")
+          fi
+
+          echo "projects=$PROJECT_COUNT" >> $GITHUB_OUTPUT
+          echo "streams=$STREAM_COUNT" >> $GITHUB_OUTPUT
+          echo "loops=$LOOP_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Send reminder to Slack
+        if: steps.check.outputs.is_first_sunday == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_MONTHLY_CHANNEL_ID: ${{ secrets.SLACK_MONTHLY_CHANNEL_ID }}
+        run: |
+          MONTH=$(date +"%B %Y")
+          PROJECTS="${{ steps.stats.outputs.projects }}"
+          STREAMS="${{ steps.stats.outputs.streams }}"
+          LOOPS="${{ steps.stats.outputs.loops }}"
+
+          MSG="*Monthly Review Time*
+
+          Ready for your ${MONTH} review? Type \`/ritual monthly\` to begin.
+
+          *Your Second Brain this month:*
+          - ${PROJECTS} active projects
+          - ${STREAMS} days with stream entries
+          - ${LOOPS} open loops
+
+          This is a deeper review. We'll look at patterns, check in on your roles, and see how your goals are tracking.
+
+          What themes emerged this month? Where did your energy actually go?"
+
+          curl -s -X POST "https://slack.com/api/chat.postMessage" \
+            -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg channel "$SLACK_MONTHLY_CHANNEL_ID" --arg text "$MSG" '{channel: $channel, text: $text}')"

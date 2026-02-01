@@ -1,0 +1,39 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+.env.test
+.env.e2e
+
+# Claude Code local settings (contains permissions with tokens)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies (if we add any scripts)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test coverage
+coverage/

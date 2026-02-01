@@ -1,0 +1,87 @@
+{
+  "display_information": {
+    "name": "Second Brain",
+    "description": "Personal salience-first second brain system",
+    "background_color": "#1a1a2e"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Second Brain",
+      "always_online": true
+    },
+    "slash_commands": [
+      {
+        "command": "/capture",
+        "url": "https://WORKER_URL_PLACEHOLDER/commands",
+        "description": "Quick capture - /capture task|event|idea|person|note <text>",
+        "usage_hint": "task Call mom tomorrow",
+        "should_escape": true
+      },
+      {
+        "command": "/what-matters",
+        "url": "https://WORKER_URL_PLACEHOLDER/commands",
+        "description": "Get today's prioritized task list",
+        "should_escape": false
+      },
+      {
+        "command": "/ritual",
+        "url": "https://WORKER_URL_PLACEHOLDER/commands",
+        "description": "Start a review ritual - /ritual weekly|monthly",
+        "usage_hint": "weekly",
+        "should_escape": false
+      },
+      {
+        "command": "/project",
+        "url": "https://WORKER_URL_PLACEHOLDER/commands",
+        "description": "Project management - /project new|status|log|list|archive",
+        "usage_hint": "status project-name",
+        "should_escape": true
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "app_mentions:read",
+        "channels:history",
+        "channels:join",
+        "channels:manage",
+        "channels:read",
+        "chat:write",
+        "chat:write.public",
+        "chat:delete",
+        "commands",
+        "groups:history",
+        "groups:read",
+        "groups:write",
+        "im:history",
+        "im:read",
+        "im:write",
+        "mpim:history",
+        "mpim:read",
+        "mpim:write",
+        "reactions:read",
+        "reactions:write",
+        "users:read",
+        "files:read",
+        "files:write"
+      ]
+    }
+  },
+  "settings": {
+    "event_subscriptions": {
+      "bot_events": [
+        "message.channels",
+        "message.groups",
+        "message.im",
+        "app_mention"
+      ]
+    },
+    "interactivity": {
+      "is_enabled": true
+    },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}

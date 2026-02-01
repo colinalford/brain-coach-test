@@ -1,0 +1,23 @@
+{
+  "query": "concierge medicine doctors Asheville NC",
+  "results": [
+    {
+      "title": "Asheville Concierge Medicine - Dr. Smith",
+      "url": "https://example.com/asheville-concierge",
+      "content": "Dr. Jane Smith offers personalized concierge medicine in Asheville, NC. Membership includes unlimited visits, same-day appointments, and 24/7 access. Monthly fee: $200-300.",
+      "score": 0.95
+    },
+    {
+      "title": "Mountain Direct Primary Care",
+      "url": "https://example.com/mountain-dpc",
+      "content": "Direct primary care practice accepting new patients. No insurance billing, flat monthly fee of $150 for adults. Located downtown Asheville.",
+      "score": 0.92
+    },
+    {
+      "title": "WNC Health Partners - Concierge Services",
+      "url": "https://example.com/wnc-health",
+      "content": "Full-service concierge medical practice. Annual membership starts at $2500. Includes comprehensive annual physical, unlimited office visits, and care coordination.",
+      "score": 0.88
+    }
+  ]
+}

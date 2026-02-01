@@ -1,0 +1,46 @@
+{
+  "summary": "Captured information about finding a primary care doctor and scheduling a vet appointment",
+  "emotional_state": "Focused but dealing with multiple priorities",
+  "suggest_basket_sort": false,
+  "trigger_research": false,
+  "research_query": "",
+  "needs_clarification": [],
+  "calendar_events": [
+    {
+      "title": "Vet appointment for Audie",
+      "datetime": "2026-01-22T10:00",
+      "duration_minutes": 60,
+      "location": "Central Bark Vet",
+      "source_quote": "Take Audie to the vet on Wednesday at 10am"
+    }
+  ],
+  "tasks": [
+    {
+      "content": "Research concierge doctors in Asheville area",
+      "importance": "medium",
+      "due_date": null,
+      "source_quote": "need to find a PCP"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Find PCP",
+      "next_action": "Research concierge medicine options",
+      "source_quote": "finding a primary care doctor"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Audie",
+      "type": "pet",
+      "context": "Pet that needs vet visit"
+    },
+    {
+      "name": "Central Bark Vet",
+      "type": "place",
+      "context": "Veterinary clinic"
+    }
+  ],
+  "entity_updates": [],
+  "response": "Got it! I've captured:\n\n**Project:** Find PCP - I've noted this as an active project. Your first step is to research concierge medicine options.\n\n**Calendar:** Vet appointment for Audie scheduled for Wednesday, January 22nd at 10am at Central Bark Vet.\n\nI also noted Audie (your pet) and Central Bark Vet as entities for future reference."
+}
