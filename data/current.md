@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: ebb713c7 source_ref: do direction: decompose -->
+<!-- context_pack_version: 07ee5f7e source_ref: do direction: decompose -->
 Last rebuilt: 2026-02-01 08:35
 
 ## Pending Review
@@ -7,7 +7,7 @@ Last rebuilt: 2026-02-01 08:35
 <!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 *No items pending review*
-
+- Schedule dentist appointment - which day next week? (inbox-persist-1769934990-002)
 ## Today's Stream
 <!-- Source: stream/2026-02-01.md -->
 ## Captures
@@ -64,6 +64,7 @@ Last rebuilt: 2026-02-01 08:35
 - [ ] Follow up on design review
 - [ ] Finish quarterly report (due Friday 2/6)
 - [ ] Follow up on design review (inbox-1769934979-001)
+- [ ] Schedule dentist appointment next week (inbox-persist-1769934990-002)
 ## This Week's Plan
 <!-- Source: planning/weekly/2026-W06.md -->
 *No weekly plan yet*
