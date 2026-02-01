@@ -38,6 +38,32 @@ The testing landscape shows a clear shift toward these modern frameworks, with t
 - https://www.checklyhq.com/blog/cypress-vs-selenium-vs-playwright-vs-puppeteer-speed-comparison/
 - https://betterstack.com/community/guides/scaling-nodejs/playwright-cypress-puppeteer-selenium-comparison/
 - https://tweak-extension.com/blog/comparison-e2e-javascript-testing-frameworks
+### best testing frameworks for Node.js end-to-end testing (2026-02-01)
+
+Based on your research into Node.js E2E testing frameworks, **Playwright emerges as the clear winner** for modern web testing needs. It offers superior performance, built-in parallelization, cross-browser support, and excellent developer experience. **Cypress** remains a strong contender for JavaScript-focused teams needing real-time debugging, while **WebDriverIO** provides the most comprehensive BDD integration options.
+
+For your `bdd-test` project, the landscape shows three main approaches: 1) Native BDD frameworks like **Cucumber.js** with step definitions, 2) Framework-specific BDD plugins (cypress-cucumber-preprocessor), and 3) Modern alternatives like **@bonniernews/node-test-bdd** that work with Node's built-in test runner. The choice depends on whether you prioritize pure BDD methodology or prefer framework-integrated testing with BDD syntax.
+
+**Key Findings:**
+- Playwright leads in performance benchmarks (fastest execution), offers free built-in parallel testing, and provides comprehensive cross-browser support with modern auto-waiting features
+- Cypress excels in developer experience with real-time debugging and time-travel features, but requires paid subscriptions for parallel testing and has browser limitations
+- WebDriverIO provides the strongest BDD integration with native Cucumber/Gherkin support and works with Mocha, Jasmine, and Cucumber frameworks out of the box
+- Pure BDD approaches include Cucumber.js (mature, feature-complete) and @bonniernews/node-test-bdd (modern, works with Node's native test runner)
+- All major frameworks support BDD through plugins: cypress-cucumber-preprocessor for Cypress, cucumber-js integration for Playwright, though Playwright doesn't natively support BDD syntax
+
+**Recommendations:**
+- Choose **Playwright** for new projects requiring maximum performance, cross-browser testing, and CI/CD integration - it's the most future-proof option with excellent Node.js support
+- Select **Cypress** if your team prioritizes developer experience, real-time debugging, and works primarily with web applications in a single browser environment
+- Use **WebDriverIO** if BDD methodology is central to your testing strategy and you need seamless Gherkin/Cucumber integration with enterprise-level features
+- For pure BDD in Node.js, consider **@bonniernews/node-test-bdd** as a modern alternative that leverages Node's native test runner, or stick with **Cucumber.js** for maximum BDD feature support
+- Start with a simple comparison test: implement the same test scenario in 2-3 frameworks to evaluate which fits your team's workflow and technical requirements best
+
+**Sources:**
+- https://checklyhq.com/docs/comparisons/frameworks/playwright-vs-cypress
+- https://blog.appsignal.com/2024/05/22/cypress-vs-playwright-for-node-a-head-to-head-comparison.html
+- https://github.com/BonnierNews/node-test-bdd
+- https://webdriver.io/docs/frameworks/
+- https://shaneofalltrades.com/2024/11/21/top-5-web-testing-frameworks-2024/
 ## Log
 
 - 2026-02-01 | Project created
