@@ -13,6 +13,7 @@ No captures yet.
 - [ ] Atomic commit test task
 - [ ] Atomic commit test task
 - [ ] Atomic commit test task
+- [ ] Atomic commit test task
 ## This Week
 Testing the new Durable Objects architecture.
 
