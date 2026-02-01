@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 2c45cacf source_ref: do direction: decompose -->
+<!-- context_pack_version: e325a99d source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -45,6 +45,25 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+- [ ] Walk Audie every morning
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Theme
 Stabilize and protect what matters
@@ -403,21 +422,4 @@ Personal information and biographical context.
 - **Pet:** Audie (dog)
 
 ## Health Context
-- Executive function challenges (ADHD)
-- Values nervous system regulation
-- Regular therapy, massage as part of wellness routine
-
-## Work
-- Software engineer
-- Currently employed at Fundrise
-
-## Living Situation
-- Homeowner with yard/garden space
-- Values clean, tidy, beautiful home environment
-
-
----
-
-<!--
-Write your personal mission statement here.
-This is your long-horizon orienting
+- Executive function challe
