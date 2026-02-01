@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: dadb41ea source_ref: do direction: decompose -->
+<!-- context_pack_version: b0ddaa0d source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -40,6 +40,25 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+- [ ] Walk Audie every morning
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Theme
 Stabilize and protect what matters
@@ -303,4 +322,4 @@ Rather than abstract purpose, this mission is expressed as a **picture of a good
 
 I go to bed and wake up around the same time most days. My mornings belong to me before any other obligations.
 
-When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ
+When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃ
