@@ -24,6 +24,3 @@ Events for the next 2-3 weeks. Past events are archived to `calendar-past.md`.
 ## 2026-02-05 (Thursday)
 
 - 09:00-10:00 Therapy with Dana Jaffe
-
-## 2026-02-08 (Saturday)
-- TBD Dentist appointment (needs scheduling)
