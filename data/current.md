@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: ccdd19c180b3327 source_ref: test direction: decompose -->
+<!-- context_pack_version: 360133c9 source_ref: do direction: decompose -->
 Last rebuilt: test
 
 ## Pending Review
@@ -7,3 +7,4 @@ Last rebuilt: test
 
 ## Open Loops
 *No open loops*
+- [ ] Atomic commit test task
