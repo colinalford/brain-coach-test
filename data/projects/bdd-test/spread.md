@@ -64,6 +64,20 @@ For your `bdd-test` project, the landscape shows three main approaches: 1) Nativ
 - https://github.com/BonnierNews/node-test-bdd
 - https://webdriver.io/docs/frameworks/
 - https://shaneofalltrades.com/2024/11/21/top-5-web-testing-frameworks-2024/
+### best practices for testing [test:research_1769981514856] (2026-02-01)
+
+Research synthesis on testing best practices. [test:research_1769981514856]
+
+**Key Findings:**
+- Unit tests catch bugs early
+- Integration tests verify wiring
+
+**Recommendations:**
+- Write tests first
+- Use BDD approach
+
+**Sources:**
+- https://example.com/testing-guide
 ## Log
 
 - 2026-02-01 | Project created
