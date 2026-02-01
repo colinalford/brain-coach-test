@@ -1,0 +1,84 @@
+name: Daily Digest
+
+on:
+  schedule:
+    # 7:30 AM ET (12:30 UTC) — 7:30am EST / 8:30am EDT
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Rebuild context pack
+        run: node src/scripts/rebuild-context.js
+
+      - name: Generate digest
+        id: digest
+        run: |
+          node src/scripts/generate-digest.js > /tmp/digest-output.txt 2>&1
+          cat /tmp/digest-output.txt
+
+          DIGEST_FILE="data/planning/daily/$(date +%Y-%m-%d).md"
+          if [ -f "$DIGEST_FILE" ]; then
+            DIGEST_CONTENT=$(cat "$DIGEST_FILE")
+            {
+              echo 'digest<<EOF'
+              echo "$DIGEST_CONTENT"
+              echo 'EOF'
+            } >> $GITHUB_OUTPUT
+          else
+            echo "digest=No digest generated" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Format for Slack
+        id: slack
+        run: |
+          DIGEST="${{ steps.digest.outputs.digest }}"
+          SLACK_MSG=$(echo "$DIGEST" | sed \
+            -e 's/^# /*/' \
+            -e 's/^## /*/' \
+            -e 's/\*\([^*]*\)$/\*\1\*/' \
+            -e 's/^- \[ \]/☐/' \
+            -e 's/^- \[x\]/☑/' \
+            -e 's/^- /• /')
+          {
+            echo 'slack_msg<<EOF'
+            echo "$SLACK_MSG"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+      - name: Send to Slack
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_INBOX_CHANNEL_ID: ${{ secrets.SLACK_INBOX_CHANNEL_ID }}
+        run: |
+          SLACK_MSG=$(cat << 'SLACKEOF'
+          ${{ steps.slack.outputs.slack_msg }}
+          SLACKEOF
+          )
+
+          curl -s -X POST "https://slack.com/api/chat.postMessage" \
+            -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg channel "$SLACK_INBOX_CHANNEL_ID" --arg text "$SLACK_MSG" '{channel: $channel, text: $text}')"
+
+      - name: Commit digest file
+        run: |
+          git config user.name "Second Brain Bot"
+          git config user.email "bot@secondbrain.local"
+          git add data/planning/daily/
+          git diff --staged --quiet || git commit -m "Add daily digest for $(date +%Y-%m-%d)"
+          git push || echo "Nothing to push"

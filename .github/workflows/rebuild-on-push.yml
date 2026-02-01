@@ -1,0 +1,86 @@
+name: Rebuild Context on Push
+
+on:
+  push:
+    paths:
+      - 'data/**'
+    branches:
+      - main
+
+# Prevent concurrent runs that could cause race conditions
+concurrency:
+  group: rebuild-context
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    # Don't rebuild if the push was from the bot itself
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check rebuild gating
+        id: gate
+        run: |
+          if [ ! -f "data/current.md" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            echo "No current.md — first build"
+            exit 0
+          fi
+
+          # Check version stamp direction
+          DIRECTION=$(grep -o 'direction: [a-z]*' data/current.md | head -1 | awk '{print $2}')
+          VERSION=$(grep -o 'context_pack_version: [a-f0-9]*' data/current.md | head -1 | awk '{print $2}')
+
+          if [ "$DIRECTION" = "decompose" ]; then
+            # Decompose direction — check if .done marker exists
+            if [ -n "$VERSION" ] && [ -f "data/.decompose/${VERSION}.done" ]; then
+              echo "proceed=true" >> "$GITHUB_OUTPUT"
+              echo "Decompose marker found — proceeding with rebuild"
+            else
+              echo "proceed=false" >> "$GITHUB_OUTPUT"
+              echo "Decompose direction but no .done marker — waiting for decompose"
+            fi
+          else
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            echo "Direction is ${DIRECTION:-build} — proceeding"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.proceed == 'true'
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+        if: steps.gate.outputs.proceed == 'true'
+
+      - name: Rebuild context pack
+        if: steps.gate.outputs.proceed == 'true'
+        run: node src/scripts/rebuild-context.js
+        env:
+          DATA_DIR: ./data
+
+      - name: Check for changes
+        if: steps.gate.outputs.proceed == 'true'
+        id: check
+        run: |
+          git diff --quiet data/current.md || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit rebuilt context
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "Second Brain Bot"
+          git config user.email "bot@secondbrain.local"
+          git add data/current.md
+          git commit -m "Rebuild context pack"
+          git push

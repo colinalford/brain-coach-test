@@ -1,0 +1,79 @@
+name: Decompose Context on Push
+
+on:
+  push:
+    paths:
+      - 'data/current.md'
+    branches:
+      - main
+
+# Share concurrency group with rebuild to prevent races
+concurrency:
+  group: rebuild-context
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  decompose:
+    runs-on: ubuntu-latest
+
+    # Only run if the push was NOT from the bot (bot pushes are rebuild results)
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check if decompose is needed
+        id: check-direction
+        run: |
+          if [ ! -f "data/current.md" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "No current.md found"
+            exit 0
+          fi
+
+          DIRECTION=$(grep -o 'direction: [a-z]*' data/current.md | head -1 | awk '{print $2}')
+          echo "direction=$DIRECTION" >> "$GITHUB_OUTPUT"
+
+          if [ "$DIRECTION" = "decompose" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Direction is decompose — proceeding"
+          else
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Direction is ${DIRECTION:-unset} — skipping decompose"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.check-direction.outputs.skip != 'true'
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+        if: steps.check-direction.outputs.skip != 'true'
+
+      - name: Run decompose
+        if: steps.check-direction.outputs.skip != 'true'
+        run: node src/scripts/decompose-context.js
+        env:
+          DATA_DIR: ./data
+
+      - name: Check for changes
+        if: steps.check-direction.outputs.skip != 'true'
+        id: check-changes
+        run: |
+          git add -A data/
+          git diff --staged --quiet || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit decomposed files
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Second Brain Bot"
+          git config user.email "bot@secondbrain.local"
+          git commit -m "Decompose context pack into source files"
+          git push
