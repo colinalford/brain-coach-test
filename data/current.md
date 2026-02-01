@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: aa08f3dc source_ref: do direction: decompose -->
+<!-- context_pack_version: 7d4a0a3d source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -46,6 +46,7 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Debug auth middleware issue in API refactor
 - [ ] Groceries: eggs, bread, coffee
 - [ ] what-matters test marker [test:wm_1769983903840]
+- [ ] what-matters test marker [test:wm_1769984032997]
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
