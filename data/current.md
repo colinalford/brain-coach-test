@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 7d4a0a3d source_ref: do direction: decompose -->
+<!-- context_pack_version: 7197c2ad source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -50,6 +50,12 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Focus Areas
+- Rebuild test focus
+
+## Commitments
+- [ ] Rebuild test commitment
 
 ## Theme
 Stabilize and protect what matters
@@ -413,12 +419,4 @@ System Foundation Month - Getting the Second Brain operational and habitual.
 
 
 ## Learned Context
-<!-- Source: system/learned.md -->
-# Learned Context
-
-Things the system has learned about the user's world. Updated automatically during capture.
-
-## People
-
-### Audie
--
+<!-- Source: system/learned.md -
