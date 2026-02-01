@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: b197cefe source_ref: do direction: decompose -->
+<!-- context_pack_version: c8781e2e source_ref: do direction: decompose -->
 Last rebuilt: test
 
 ## Pending Review
@@ -11,3 +11,4 @@ Last rebuilt: test
 - [ ] Atomic commit test task
 - [ ] Buy groceries (milk, eggs, bread)
 - [ ] Schedule dentist follow-up
+- [ ] Finish quarterly report (due Friday 2026-02-07)
