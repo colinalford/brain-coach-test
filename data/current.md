@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 4146b788 source_ref: do direction: decompose -->
+<!-- context_pack_version: aab2b5f7 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -37,6 +37,25 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+- [ ] Walk Audie every morning
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Theme
 Stabilize and protect what matters
@@ -311,16 +330,4 @@ This mission prioritizes:
 * contribution without selfÃÂÃÂ¢ÃÂÃÂÃÂÃÂerasure
 * a life that can be lived sustainably
 
-A good life, for me, is not defined by constant achievement. It is defined by **days that feel inhabitable** and a future that feels trustworthy.
-
----
-
-## How This Is Used
-
-This mission is a **longÃÂÃÂ¢ÃÂÃÂÃÂÃÂhorizon orienting reference**.
-
-It is used to:
-
-* evaluate whether goals are pointing in the right direction
-* resolve priority conflicts when shortÃÂÃÂ¢ÃÂÃÂÃÂÃÂterm salience is noisy
-* notice when life drifts toward chr
+A good life, for me, is not defined by constant achievement. It is defined by **days that fe
