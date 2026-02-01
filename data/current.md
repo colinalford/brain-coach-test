@@ -1,14 +1,44 @@
-# Current Context (Test)
-Last rebuilt: 2026-01-29
+# Current Context
+<!-- context_pack_version: daa14deb8289 source_ref: 3a1c8e269c7c direction: build -->
+Last rebuilt: 2026-02-01 06:53
 
-## Identity
-Test user for Second Brain development.
+## Pending Review
+<!-- Managed inline - preserved during rebuild -->
+*No items pending review*
 
 ## Today's Stream
-No captures yet.
+<!-- Source: stream/2026-02-01.md -->
+## Captures
+
+- 04:54 | [research] best practices for testing research-1769921643-001
+- 10:00 | [test:atomic-1769922094197-001] Atomic commit test task
+- 10:00 | [test:atomic-1769922106655-001] Atomic commit test task
+- 00:01 | [task] Test persistence cap-persist-1769922119-002
+- 00:02 | [event] Meeting at 3pm evt-1769922129-004
+- 10:00 | [test:atomic-1769922315637-001] Atomic commit test task
+- 10:00 | [test:atomic-1769922646671-001] Atomic commit test task
+- 10:00 | [test:atomic-1769922935676-001] Atomic commit test task
+- 00:20 | [task] Test persistence cap-persist-1769923225-002
+- 00:20 | [idea] Build a widget idea-1769923228-003
+- 00:20 | [task] Important deadline cross-1769923233-001
+- 10:00 | [test:atomic-1769923238745-001] Atomic commit test task
+- 05:20 | [research] best practices for testing research-1769923243-001
+- 10:00 | [test:atomic-1769923720971-001] Atomic commit test task
+- 10:00 | [test:atomic-1769923855227-001] Atomic commit test task
+- 00:35 | [task] Important deadline cross-1769924156-001
+- 10:00 | [test:atomic-1769924161879-001] Atomic commit test task
+- 00:36 | [task] Test persistence cap-persist-1769924173-002
+- 00:36 | [event] Meeting at 3pm evt-1769924176-004
+- 10:00 | [test:atomic-1769925732370-001] Atomic commit test task
+- 01:07 | [task] Important deadline cross-1769926024-001
+- 01:07 | [task] Test persistence cap-persist-1769926029-002
+- 01:07 | [note] Remember this note-1769926033-005
+- 10:00 | [test:atomic-1769926768564-001] Atomic commit test task
+- 10:00 | [test:atomic-1769928762445-001] Atomic commit test task
+
 
 ## Open Loops
-
+<!-- Managed inline - preserved during rebuild -->
 - [ ] Verify storage test 1769851385056
 - [ ] Atomic commit test task
 - [ ] Atomic commit test task
@@ -26,9 +56,43 @@ No captures yet.
 - [ ] Atomic commit test task
 - [ ] Atomic commit test task
 - [ ] Atomic commit test task
-## This Week
-Testing the new Durable Objects architecture.
 
-Pending Review
+## This Week's Plan
+<!-- Source: planning/weekly/2026-W06.md -->
+*No weekly plan yet*
 
-- ```code block```
+## Upcoming Calendar
+<!-- Source: planning/calendar-current.md -->
+## 2026-02-01 (Sunday)
+
+- 14:00 Team meeting
+
+
+## Project Index
+<!-- Source: projects/index.md -->
+# Project Index
+
+| Project | Status | Description |
+|---------|--------|-------------|
+| [test-crud-t-1769901374-001](test-crud-t-1769901374-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769902112-001](test-crud-t-1769902112-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769902439-001](test-crud-t-1769902439-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769902485-001](test-crud-t-1769902485-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769923221-001](test-crud-t-1769923221-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769924167-001](test-crud-t-1769924167-001/spread.md) | active | _Add project description here_ |
+| [test-crud-t-1769926021-001](test-crud-t-1769926021-001/spread.md) | active | _Add project description here_ |
+
+
+## This Month's Plan
+<!-- Source: planning/monthly/2026-02.md -->
+*No monthly plan yet*
+
+## Learned Context
+<!-- Source: system/learned.md -->
+# Learned Context (Test)
+
+
+## Identity
+<!-- Source: identity/*.md (combined) -->
+# Bio (Test)
+
