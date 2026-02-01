@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 273a541a source_ref: do direction: decompose -->
+<!-- context_pack_version: 8d71f5d4 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -45,6 +45,7 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Schedule dentist appointment for Saturday
 - [ ] Debug auth middleware issue in API refactor
 - [ ] Groceries: eggs, bread, coffee
+- [ ] what-matters test marker [test:wm_1769983903840]
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
