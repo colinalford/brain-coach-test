@@ -1,9 +1,8 @@
 # Current Context
-<!-- context_pack_version: ea92f7c8b359 source_ref: 19c4cd937580 direction: build -->
+<!-- context_pack_version: a277761b source_ref: do direction: decompose -->
 Last rebuilt: 2026-02-01 08:35
 
 ## Pending Review
-<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
@@ -51,11 +50,9 @@ Last rebuilt: 2026-02-01 08:35
 - 07:51 | [research] best practices for testing research-1769932317-001
 - 03:34 | Asked about current projects
 - 03:35 | Help me think about my priorities for this week
-- 03:35 | Test with <script>alert(1)</script> and "quotes"
 
 
 ## Open Loops
-<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
@@ -65,7 +62,7 @@ Last rebuilt: 2026-02-01 08:35
 - [ ] Pick up prescription
 - [ ] Atomic commit test task
 - [ ] Follow up on design review
-
+- [ ] Finish quarterly report (due Friday 2/6)
 ## This Week's Plan
 <!-- Source: planning/weekly/2026-W06.md -->
 *No weekly plan yet*
