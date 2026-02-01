@@ -1,5 +1,7 @@
-# bdd-te
-Active — updated from chat [test:proj_chat_1769982526702]
+# bdd-test
+
+Created: 2026-02-01
+Status: active
 
 ## Summary
 
@@ -86,21 +88,30 @@ The testing landscape shows a clear shift toward these modern frameworks, with t
 - https://www.bigbinary.com/blog/why-we-switched-from-cypress-to-playwright
 - https://blog.appsignal.com/2024/05/22/cypress-vs-playwright-for-node-a-head-to-head-comparison.html
 - https://2024.stateofjs.com/en-US/libraries/testing/
-### best practices for testing [test:research_1769982519214] (2026-02-01)
+### best testing frameworks for Node.js end-to-end testing (2026-02-01)
 
-Research synthesis on testing best practices. [test:research_1769982519214]
+Based on comprehensive research across 40 sources, **Playwright** emerges as the top choice for Node.js E2E testing in 2025, followed closely by **Cypress**. Playwright excels in cross-browser testing, performance, and modern web automation, while Cypress offers superior developer experience and debugging tools. For your bdd-test project, Playwright would provide the most comprehensive testing capabilities with excellent performance, though Cypress might be easier to get started with if you prioritize developer experience over cross-browser coverage.
+
+The testing landscape shows a clear shift toward these modern frameworks, with traditional tools like Selenium losing ground due to slower performance and more complex setup. Both Playwright and Cypress offer built-in test runners, making them ideal for Node.js projects without additional dependencies.
 
 **Key Findings:**
-- Unit tests catch bugs early
-- Integration tests verify wiring
+- Playwright leads in performance benchmarks (20-40% faster than competitors) and offers the most comprehensive browser support including WebKit/Safari
+- Cypress provides the best developer experience with excellent debugging tools, time-travel debugging, and intuitive API, but is limited to Chrome-based browsers
+- Setup complexity varies significantly: Playwright and Cypress offer zero-config solutions, while Selenium requires extensive configuration and WebDriver management
+- Architecture differences impact reliability: Cypress runs in-browser for faster feedback, Playwright uses external control for broader capabilities
+- Community and ecosystem maturity: Cypress has stronger plugin ecosystem, while Playwright has rapid adoption and Microsoft backing
 
 **Recommendations:**
-- Write tests first
-- Use BDD approach
+- Start with Playwright for your bdd-test project if you need comprehensive cross-browser testing, mobile support, or plan to scale testing across multiple environments
+- Choose Cypress if your team prioritizes rapid development, excellent debugging experience, and primarily tests Chrome-based applications
+- Avoid Selenium for new Node.js projects unless you have specific legacy requirements - modern alternatives are significantly faster and easier to maintain
+- Consider implementing parallel test execution from the start, as both Playwright and Cypress support this natively for faster CI/CD pipelines
 
 **Sources:**
-- https://example.com/testing-guide
+- https://betterstack.com/community/guides/scaling-nodejs/playwright-cypress-puppeteer-selenium-comparison/
+- https://www.getautonoma.com/blog/test-automation-frameworks-guide
+- https://blog.appsignal.com/2024/05/22/cypress-vs-playwright-for-node-a-head-to-head-comparison.html
+- https://currents.dev/posts/cypress-playwright-for-tech-leaders
 ## Log
 
 - 2026-02-01 | Project created
-- 2026-02-01 21:48 | Update project status [test:proj_chat_1769982526702]
