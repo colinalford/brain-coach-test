@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 505aa9be source_ref: do direction: decompose -->
+<!-- context_pack_version: 40ab0da6 source_ref: do direction: decompose -->
 Last rebuilt: test
 
 ## Pending Review
@@ -8,3 +8,4 @@ Last rebuilt: test
 ## Open Loops
 *No open loops*
 - [ ] Pick up prescription
+- [ ] Atomic commit test task
