@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 22a2ca5d source_ref: do direction: decompose -->
+<!-- context_pack_version: 273a541a source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -420,9 +420,4 @@ Personal information and biographical context.
 
 ## Basic Info
 - **Name:** Colin Alford (Coco to friends, Colin professionally)
-- **Birthday:** September 29, 1987
-- **Location:** Asheville, NC area
-- **Pet:** Audie (dog)
-
-## Health Context
-- Executive function challe
+- **
