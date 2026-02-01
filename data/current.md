@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: e325a99d source_ref: do direction: decompose -->
+<!-- context_pack_version: 22a2ca5d source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -42,6 +42,9 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Groceries: eggs, bread, coffee
 - [ ] what-matters test marker [test:wm_1769981476834]
 - [ ] what-matters test marker [test:wm_1769982483327]
+- [ ] Schedule dentist appointment for Saturday
+- [ ] Debug auth middleware issue in API refactor
+- [ ] Groceries: eggs, bread, coffee
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
