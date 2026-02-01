@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: aa08f3f2 source_ref: do direction: decompose -->
+<!-- context_pack_version: ee50e597 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -46,46 +46,12 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Debug auth middleware issue in API refactor
 - [ ] Groceries: eggs, bread, coffee
 - [ ] what-matters test marker [test:wm_1769983903840]
+- [ ] Schedule dentist appointment for Saturday
+- [ ] Debug auth middleware issue in API refactor
+- [ ] Groceries: eggs, bread, coffee
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
-
-## Theme
-Stabilize and protect what matters
-
-## Focus Areas
-- Engineering leadership
-- Dog dad - more walks
-- Health management
-- Work deliverables
-
-## Commitments
-- [ ] 1hr PCP research
-- [ ] Start performance review drafts
-- [ ] Book vet for Audie
-- [ ] Walk Audie every morning
-
-## Active Open Loops
-- Vet visit for Audie
-- Performance reviews due March 1
-
-## Theme
-Stabilize and protect what matters
-
-## Focus Areas
-- Engineering leadership
-- Dog dad - more walks
-- Health management
-- Work deliverables
-
-## Commitments
-- [ ] 1hr PCP research
-- [ ] Start performance review drafts
-- [ ] Book vet for Audie
-
-## Active Open Loops
-- Vet visit for Audie
-- Performance reviews due March 1
 
 ## Focus Areas
 - Rebuild test focus
@@ -420,4 +386,41 @@ Things the system has learned about the user's world. Updated automatically duri
 ## People
 
 ### Audie
-- 
+- Colin's dog
+- Goes to Central Bark daycare
+- Important part of daily routine (walks, care)
+
+### Eric Dissinger
+- Friend
+- Currently job searching
+- Someone to check in with
+
+### Dana
+- Therapist - has appointments at 9am
+
+## Places
+
+### Fundrise
+- Colin's employer
+- Software engineering work
+
+### Central Bark
+- Dog daycare for Audie
+
+### AB Tech
+- Location for pottery class
+
+### CVS
+- Pharmacy for prescriptions
+
+## Patterns Noticed
+
+*Patterns will be added as the system learns*
+
+- User values clear, simple systems over complex ones
+- Morning routine is important for regulation
+- Phone calls tend to be avoided (push behavior)
+
+
+## Identity
+<!-- Source: identity/*.md (combined) -->
