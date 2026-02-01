@@ -1,8 +1,9 @@
 # Current Context
-<!-- context_pack_version: 47fa1853 source_ref: do direction: decompose -->
-Last rebuilt: 2026-02-01 08:04
+<!-- context_pack_version: 97642e74cd03 source_ref: ec82c82406de direction: build -->
+Last rebuilt: 2026-02-01 08:35
 
 ## Pending Review
+<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 *No items pending review*
 
@@ -46,9 +47,11 @@ Last rebuilt: 2026-02-01 08:04
 - 10:00 | [test:brain-dump-1769930689581-001] Brain dump: dentist, project review, groceries
 - 10:00 | [test:durability-1769930696498-001] Durability checkpoint
 - 07:51 | [research] best practices for testing research-1769932317-001
+- 03:34 | Asked about current projects
 
 
 ## Open Loops
+<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 *No open loops*
 - [ ] Buy groceries (milk, eggs, bread)
@@ -56,9 +59,11 @@ Last rebuilt: 2026-02-01 08:04
 - [ ] Pick up prescription
 - [ ] Atomic commit test task
 - [ ] Follow up on design review
+
 ## This Week's Plan
 <!-- Source: planning/weekly/2026-W06.md -->
 *No weekly plan yet*
+
 
 ## Upcoming Calendar
 <!-- Source: planning/calendar-current.md -->
@@ -89,6 +94,7 @@ Last rebuilt: 2026-02-01 08:04
 ## This Month's Plan
 <!-- Source: planning/monthly/2026-02.md -->
 *No monthly plan yet*
+
 
 ## Learned Context
 <!-- Source: system/learned.md -->
