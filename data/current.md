@@ -1,10 +1,10 @@
 # Current Context
-<!-- context_pack_version: 7b4ea118 source_ref: do direction: decompose -->
+<!-- context_pack_version: 1d9b71f6 source_ref: do direction: decompose -->
 Last rebuilt: test
 
 ## Pending Review
 *No items pending review*
-
+- Schedule dentist appointment next week (need specific day/time)
 ## Open Loops
 *No open loops*
 - [ ] Pick up prescription
