@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 847df9e7 source_ref: do direction: decompose -->
+<!-- context_pack_version: 4146b788 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -35,8 +35,26 @@ Last rebuilt: 2026-01-30 21:44
 - [ ] Weekly reminder: 1 hour of PCP research calls (time-boxed)
 
 ## This Week's Plan
-<!-- Source: planning/weekly/2026-W05.md -->
-# Week 05 Plan - January 26 - February 1, 2026
+
+# Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Role Commitments
 
@@ -216,7 +234,7 @@ Personal information and biographical context.
 
 <!--
 Write your personal mission statement here.
-This is your long-horizon orienting document ÃÂ¢ÃÂÃÂ who you're becoming, what you're aiming at.
+This is your long-horizon orienting document ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ who you're becoming, what you're aiming at.
 Revisit annually or when something fundamental shifts.
 
 Questions to consider:
@@ -227,7 +245,7 @@ Questions to consider:
 
 # Mission Statement
 
-This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂ¢ÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂ¢ÃÂÃÂbeing.
+This mission statement does not describe an idealized version of me, nor the easiest possible life. It describes **a life that feels coherent, regulated, and meaningful**ÃÂÃÂ¢ÃÂÃÂÃÂÃÂone where my days are shaped intentionally and support both contribution and wellÃÂÃÂ¢ÃÂÃÂÃÂÃÂbeing.
 
 Rather than abstract purpose, this mission is expressed as a **picture of a good daily life**. This is the life I am orienting toward.
 
@@ -239,7 +257,7 @@ Rather than abstract purpose, this mission is expressed as a **picture of a good
 
 I go to bed and wake up around the same time most days. My mornings belong to me before any other obligations.
 
-When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂ¢ÃÂÃÂin. I look at my plans for the dayÃÂ¢ÃÂÃÂnot to pressure myself, but to orient.
+When I wake, I move slowly and deliberately into the day. I begin with a brief meditation, ritual, or quiet checkÃÂÃÂ¢ÃÂÃÂÃÂÃÂin. I look at my plans for the dayÃÂÃÂ¢ÃÂÃÂÃÂÃÂnot to pressure myself, but to orient.
 
 I walk my dog, spend some time outside, and move my body through light exercise or stretching. I eat on a consistent schedule that supports my health and energy.
 
@@ -275,7 +293,7 @@ There is room for both rest and engagement.
 
 On weekends, I have hobbies and groups I am meaningfully engaged with. I participate in community in ways that feel safe, chosen, and sustaining.
 
-I also make intentional time to be quietÃÂ¢ÃÂÃÂto rest, to reflect, to rejuvenate. Massage and selfÃÂ¢ÃÂÃÂcare are regular parts of my life, not emergency interventions.
+I also make intentional time to be quietÃÂÃÂ¢ÃÂÃÂÃÂÃÂto rest, to reflect, to rejuvenate. Massage and selfÃÂÃÂ¢ÃÂÃÂÃÂÃÂcare are regular parts of my life, not emergency interventions.
 
 I maintain a clean, tidy, and beautiful home. My yard and gardens are spaces I enjoy and tend, especially when the weather is kind.
 
@@ -290,7 +308,7 @@ This mission prioritizes:
 * nervous system stability over constant productivity
 * consistency over intensity
 * agency over pressure
-* contribution without selfÃÂ¢ÃÂÃÂerasure
+* contribution without selfÃÂÃÂ¢ÃÂÃÂÃÂÃÂerasure
 * a life that can be lived sustainably
 
 A good life, for me, is not defined by constant achievement. It is defined by **days that feel inhabitable** and a future that feels trustworthy.
@@ -299,23 +317,10 @@ A good life, for me, is not defined by constant achievement. It is defined by **
 
 ## How This Is Used
 
-This mission is a **longÃÂ¢ÃÂÃÂhorizon orienting reference**.
+This mission is a **longÃÂÃÂ¢ÃÂÃÂÃÂÃÂhorizon orienting reference**.
 
 It is used to:
 
 * evaluate whether goals are pointing in the right direction
-* resolve priority conflicts when shortÃÂ¢ÃÂÃÂterm salience is noisy
-* notice when life drifts toward chronic stress or misalignment
-* remind me what I am actually trying to protect and build
-
-This document should change slowly, and only when my understanding of a good life genuinely evolves.
-
----
-
-## Closing
-
-The question this mission answers is simple:
-
-> ÃÂ¢ÃÂÃÂIf most of my days looked like this, would I feel that my life was working?ÃÂ¢ÃÂÃÂ
-
-This is the life I am orienti
+* resolve priority conflicts when shortÃÂÃÂ¢ÃÂÃÂÃÂÃÂterm salience is noisy
+* notice when life drifts toward chr
