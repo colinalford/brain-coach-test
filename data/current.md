@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: e24fde8f source_ref: do direction: decompose -->
+<!-- context_pack_version: aa08f3f2 source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -49,6 +49,25 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+- [ ] Walk Audie every morning
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Theme
 Stabilize and protect what matters
@@ -401,26 +420,4 @@ Things the system has learned about the user's world. Updated automatically duri
 ## People
 
 ### Audie
-- Colin's dog
-- Goes to Central Bark daycare
-- Important part of daily routine (walks, care)
-
-### Eric Dissinger
-- Friend
-- Currently job searching
-- Someone to check in with
-
-### Dana
-- Therapist - has appointments at 9am
-
-## Places
-
-### Fundrise
-- Colin's employer
-- Software engineering work
-
-### Central Bark
-- Dog daycare for Audie
-
-### AB Tech
-- Location f
+- 
