@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 15e2cbe6 source_ref: do direction: decompose -->
+<!-- context_pack_version: fa1b953e source_ref: do direction: decompose -->
 Last rebuilt: test
 
 ## Pending Review
@@ -9,3 +9,5 @@ Last rebuilt: test
 *No open loops*
 - [ ] Atomic commit test task
 - [ ] Pick up prescription
+- [ ] Buy groceries (milk, eggs, bread)
+- [ ] Schedule dentist follow-up
