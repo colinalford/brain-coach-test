@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: 3f7faa17 source_ref: do direction: decompose -->
+<!-- context_pack_version: e24fde8f source_ref: do direction: decompose -->
 Last rebuilt: 2026-01-30 21:44
 
 ## Pending Review
@@ -49,6 +49,24 @@ Last rebuilt: 2026-01-30 21:44
 ## This Week's Plan
 
 # Weekly Plan - 2026-02-01
+
+## Theme
+Stabilize and protect what matters
+
+## Focus Areas
+- Engineering leadership
+- Dog dad - more walks
+- Health management
+- Work deliverables
+
+## Commitments
+- [ ] 1hr PCP research
+- [ ] Start performance review drafts
+- [ ] Book vet for Audie
+
+## Active Open Loops
+- Vet visit for Audie
+- Performance reviews due March 1
 
 ## Focus Areas
 - Rebuild test focus
@@ -405,19 +423,4 @@ Things the system has learned about the user's world. Updated automatically duri
 - Dog daycare for Audie
 
 ### AB Tech
-- Location for pottery class
-
-### CVS
-- Pharmacy for prescriptions
-
-## Patterns Noticed
-
-*Patterns will be added as the system learns*
-
-- User values clear, simple systems over complex ones
-- Morning routine is important for regulation
-- Phone calls tend to be avoided (push behavior)
-
-
-## Identity
-<!-- Source: identity/*.md (combined) -->
+- Location f
