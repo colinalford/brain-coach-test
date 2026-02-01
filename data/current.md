@@ -1,8 +1,9 @@
 # Current Context
-<!-- context_pack_version: daa14deb8289 source_ref: 3a1c8e269c7c direction: build -->
-Last rebuilt: 2026-02-01 06:53
+<!-- context_pack_version: 840ca8277799 source_ref: e5adf1b52f8e direction: build -->
+Last rebuilt: 2026-02-01 06:59
 
 ## Pending Review
+<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 *No items pending review*
 
@@ -35,9 +36,11 @@ Last rebuilt: 2026-02-01 06:53
 - 01:07 | [note] Remember this note-1769926033-005
 - 10:00 | [test:atomic-1769926768564-001] Atomic commit test task
 - 10:00 | [test:atomic-1769928762445-001] Atomic commit test task
+- 10:00 | [test:durability-1769929160919-001] Durability checkpoint
 
 
 ## Open Loops
+<!-- Managed inline - preserved during rebuild -->
 <!-- Managed inline - preserved during rebuild -->
 - [ ] Verify storage test 1769851385056
 - [ ] Atomic commit test task
