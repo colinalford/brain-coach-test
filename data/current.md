@@ -1,5 +1,5 @@
 # Current Context
-<!-- context_pack_version: efcbdd23 source_ref: do direction: decompose -->
+<!-- context_pack_version: 47fa1853 source_ref: do direction: decompose -->
 Last rebuilt: 2026-02-01 08:04
 
 ## Pending Review
@@ -55,6 +55,7 @@ Last rebuilt: 2026-02-01 08:04
 - [ ] Schedule dentist follow-up
 - [ ] Pick up prescription
 - [ ] Atomic commit test task
+- [ ] Follow up on design review
 ## This Week's Plan
 <!-- Source: planning/weekly/2026-W06.md -->
 *No weekly plan yet*
